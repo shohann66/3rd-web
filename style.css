@@ -1,0 +1,277 @@
+*{margin:0;padding:0}
+body{
+	font-family:sans-sarif, Arial !important;
+	-webkit-transition:all 0.5s ease;
+	-moz-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+a{
+	text-decoration:none;
+}
+h1,h2,h3,h4,h5,h6{
+	
+	margin-top:10px;
+	margin-bottom:10px;
+}
+p{
+	line-height:150%;
+	margin-bottom:2em;
+}
+.fix{
+	overflow:hidden;
+}
+
+.wrap{
+	width:100%;
+	
+}
+.wrapper{
+	width:980px;
+	display:block;
+	margin:0 auto;
+}
+
+.header_bg{
+	background:#292929;
+
+}
+
+.wrapper_bg{
+	border-bottom:5px solid #1E1E1E;
+	border-bottom:1px solid #E1E0E0;
+}
+#header .logo{
+	float:left;
+}
+#header .logo h1{
+	font-family:Lato;
+	font-weight:bold;
+	font-size:40px;
+	color:#fff;
+	padding-top:30px;	
+}
+#header nav {
+	float:right;
+}
+#header>nav #manu{
+	list-style:none;
+}
+#header>nav #manu li{
+	float:left;
+	border-left:1px solid #1d1d1d;
+}
+#header>nav #manu li:last-child{
+	border-right:1px solid #1d1d1d;
+}
+#header>nav #manu li a{
+	display:block;
+	font-family:Lato;
+	font-weight:bold;
+	font-size:16px;
+	color:#fff;
+    padding:50px 30px;
+	;
+}
+
+#header>nav #manu li a:hover{
+	color:#58c93a;
+	border-bottom:5px solid #41C84E;
+}
+#header>nav #manu li.active a{
+	border-bottom:5px solid #41C84E;
+	color:#41C84E;
+}
+.content_wrapper{
+	border-right:1px solid #E1E0E0;
+	border-left:1px solid #E1E0E0;
+	overflow:hidden;
+	padding-top:75px;
+}
+.left_contant{
+	width:620px;
+	margin-right:70px;
+	float:left;
+	display:block;
+}
+.left_contant img{
+	width:620px;
+	height:308px;
+}
+
+.article{
+	overflow:hidden;
+	margin-bottom:80px;
+}
+.article h2{
+	font-family:lato;
+	font-size:28px;
+	color:#4f4e4e;
+	font-weight:bold;
+	text-transform:uppercase;
+	padding-top:15px;
+	padding-left:15px;
+}
+.article p{
+	font-family:lato;
+	font-size:16px;
+	color:#606060;
+	font-weight:normal;
+	padding-top:15px;
+	padding-left:30px;
+}
+.switch{
+	font-family:lato;
+	color:#c2c2c2;
+	font-size:16px;
+	font-weight:bold;
+	border:1px solid #c2c2c2;
+	padding:10px 30px;
+	border-radius:26px;
+	display:inline-block;
+	margin-left:30px;
+}
+.article a{
+}
+.sidebar{
+	width:280px;
+	float:right;
+}
+.sigle_sidebar{
+	margin-bottom:40px;
+	overflow:hidden;
+}
+.sigle_sidebar h2{
+	font-family:lato;
+	color:#6c6969;
+	font-size:16px;
+	font-weight:bold;
+	text-transform:uppercase;
+	border-left:3px solid #41C84E;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:10px;
+	margin-bottom:20px;
+}
+.sigle_sidebar p{
+	font-family:lato;
+	font-size:16px;
+	color:#737373;
+	font-weight:normal;
+	width:95%;
+	margin-left:10px;
+}
+.sigle_sidebar .search_box{
+	float:right;
+	width:268px;
+	height:50px;
+	border:1px solid #E1E0E0;
+}
+
+.email{
+	position:relative;
+}
+.email input{
+	width:277px;
+	height:50px;
+	border:1px solid #E1E0E0;
+}
+.email input[type="submit"]{
+	float:right;
+	background:url(img/icon.png)no-repeat;
+	width:24px;
+	height:24px;
+	position:absolute;
+	border:none;
+	top:15px;
+	right:20px;
+	text-indent:-999999px;
+	cursor:pointer;
+}
+.sigle_sidebar input[type="text"],.sigle_sidebar input[type="email"]{
+	padding-left:10px;
+}
+.down{
+	border-top:1px solid #E1E0E0;
+	border-left:1px solid #E1E0E0;
+	border-right:1px solid #E1E0E0;
+	padding:25px 0;
+	overflow:hidden;
+	text-transform:uppercase;
+}
+.down .previous{
+	float:left;
+	font-family:lato;
+	color:#c2c2c2;
+	font-size:18px;
+	font-weight:bold;
+	margin-left:20px;
+}
+.down .next{
+	float:right;
+	font-family:lato;
+	color:#c2c2c2;
+	font-size:18px;
+	font-weight:bold;
+	margin-right:20px;
+}
+#footer{
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+#footer>h1{
+	font-family:lato;
+	font-size:40px;
+	font-weight:bold;
+	color:#000;
+	margin-top:75px;
+}
+#footer p{
+	font-family:lato;
+	color:#c2c2c2;
+	font-size:13px;
+	font-weight:regular;;
+}
+.social_aria{
+	
+}
+.social_aria ul{
+	list-style:none;
+}
+.social_aria ul li{
+	display:inline-block;
+	margin:0 10px;
+}
+.social_aria ul li.facebook a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(img/fb1.png) no-repeat;
+}
+.social_aria ul li.facebook a:hover{
+	background:url(img/ficon.png) no-repeat;
+}
+.social_aria ul li.twirwe a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(img/ticon.png) no-repeat;
+}
+.social_aria ul li.twirwe a:hover{
+	background:url(img/tw1.png) no-repeat;
+}
+.social_aria ul li.vivo a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(img/bicon.png) no-repeat;
+}
+.social_aria ul li.faceboo a{
+	display:block;
+	width:40px;
+	height:40px;
+	background:url(img/dicon.png) no-repeat;
+}
+
+
+
